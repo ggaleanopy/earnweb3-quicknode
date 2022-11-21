@@ -194,7 +194,7 @@ export default function Home() {
         <div className="p-3 md:w-1/2 w-[360px] rounded-md">
           <span className="flex justify-center items-center bg-white text-[14px] font-bold mb-1 text-red-500">{message}</span>
           <span className="flex text-[13px] font-bold mb-1 text-blue-900">{success}</span>
-          <span className="flex text-[13px] font-bold mb-1 text-blue-900" style={{ visibility: success !== '' ? 'visible' : 'hidden' }}>You can review the transaction here:&nbsp;<a href={url} target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Goerli Test Explorer</a></span>
+          <span className="flex text-[13px] font-bold mb-1 text-blue-900" style={{ visibility: success !== '' ? 'visible' : 'hidden' }}>You can review the transaction here:&nbsp;<a href={url} target="_blank" rel="noreferrer" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Goerli Test Explorer</a></span>
           <div className="h-32 w-full overflow-hidden relative shadow-md border-2 items-center rounded-md border-gray-400 border-dotted">
             <input type="file" onClick={() => setSuccess("")} onChange={handleFile} className="h-full w-full opacity-0 z-10 absolute cursor-pointer" name="files[]" />
             <div className="h-full w-full bg-gray-200 absolute z-1 flex justify-center items-center top-0">
@@ -246,7 +246,7 @@ export default function Home() {
           <span
             className="flex text-[13px] mb-1 text-blue-700 justify-center items-center bg-gray-200 rounded-md border-gray-400 border-double border-4"
           >
-            &copy; {(new Date()).getFullYear()}&nbsp;-&nbsp;<a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://gustavogaleano.com/" target="_blank">Gustavo Galeano</a>
+            &copy; {(new Date()).getFullYear()}&nbsp;-&nbsp;<a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://gustavogaleano.com/" target="_blank" rel="noreferrer">Gustavo Galeano</a>
           </span>
         </div>
       </div>
