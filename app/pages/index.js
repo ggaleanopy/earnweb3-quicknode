@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { create as ipfsHttpClient } from "ipfs-http-client";
 import Web3Modal from "web3modal";
 import { Contract, providers, utils } from "ethers";
 import truncateEthAddress from 'truncate-eth-address';
@@ -240,7 +239,7 @@ export default function Home() {
           <span
             className="flex text-[13px] mb-1 text-blue-700 justify-center items-center bg-gray-200 rounded-md border-gray-400 border-solid border-2"
           >
-            This dApp allows to upload an image (JPEG or PNG, max. size: 3MB), store it (along with its metadata) using NFTStorage service and mint it to the Goerli Test Network. The smart contract was deployed using Quicknode's RPC's.
+            This dApp allows to upload an image (JPEG or PNG, max. size: 3MB), store it (along with its metadata) using NFTStorage service and mint it to the Goerli Test Network. The smart contract was deployed using Quicknode&apos;s RPC&apos;s.
 
           </span>
           <span
