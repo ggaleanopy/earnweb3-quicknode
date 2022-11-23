@@ -1,6 +1,6 @@
-Earnweb3-Quicknode Bounty
+Earnweb3 - NFT Simple Smart Contract deployed with Quicknode
 
-This repository is intended to fulfill the requirements of the "Deploy a smart contract using QuickNode's RPC's" bounty (https://learnweb3.io/bounties/9bff5d28-e773-4e7d-a32a-1306058af0f1).
+This dApp allows to upload an image (JPEG or PNG, max. size: 3MB), store it (along with its metadata) using NFTStorage service and mint it to the Goerli Test Network.
 
 A running demo is available at https://earnweb3-quicknode.vercel.app/
 
